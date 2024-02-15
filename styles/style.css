@@ -116,3 +116,32 @@ font-weight: 900;
 } */
 /* Welcome Party Section Styles End */
 
+/* Join Now Section Style Start */
+.join-now-container {
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 120px 0px;
+    padding: 100px 350px;
+    border-radius: 10px;
+
+
+}
+.join-now-tittle {
+margin-bottom: 20px;
+color: #070211;
+font-size: 32px;
+font-weight: 600;
+}
+.join-now-tittle-name {
+    color: #FF0000;
+}
+.join-now-btn {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    border: none;
+    margin-top: 40px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+/* Join Now Section Style End */
