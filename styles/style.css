@@ -76,3 +76,43 @@ font-size: 46px;
 font-weight: 700;
 margin-bottom: 30px;
 }
+/* Categories Section Styles End */
+
+/* Welcome Party Section Styles Start */
+
+.welcome-party-container {
+background-image: url('../resources/Vectorrr.png');
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 60px 130px;
+gap: 50px;
+}
+.welcome-party-contant {
+text-align: left;
+}
+.welcome-party-tittle {
+color: #FFFFFF;
+font-size: 64px;
+font-weight: 900;
+}
+
+.welcome-party-description {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0px;
+}
+.welcome-party-btn {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+}
+/* .welcome-party-btn :hover {
+    text-decoration: underline;
+    animation: reverse;
+} */
+/* Welcome Party Section Styles End */
+
