@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -16,13 +17,15 @@ body {
         font-weight: 700;
         font-style: normal;
       }
-
-      main {
-        max-width: 1320px;
-        margin: 10px auto;
-      }
-      
+  
 }
+
+main {
+    max-width: 1320px;
+    margin: 10px auto;
+  }
+
+/* Banner Section Styles Start */
 
 .banner {
     background-image: url('../resources/Banner\ Image.png');
@@ -44,4 +47,32 @@ font-weight: 400;
 color: #FFFFFF;
 font-size: 90px;
 font-weight: 700;
+}
+/* Banner Section Styles End */
+
+/* Categories Section Styles start */
+
+.categories-section {
+    margin: 100px auto;
+}
+.category-content {
+    text-align: center;
+}
+.category-tittle-1 {
+color: #FF0000;
+font-size: 88px;
+font-weight: 700;
+margin-bottom: 50px;
+}
+.category-tittle-2 {
+color: #FF0000;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 20px;
+}
+.category-tittle-3 {
+color: #070211;
+font-size: 46px;
+font-weight: 700;
+margin-bottom: 30px;
 }
