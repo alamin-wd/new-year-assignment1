@@ -280,3 +280,44 @@ margin-bottom: 10px;
 
 
 }
+
+/* <!-- Subscribe Section Start --> */
+
+.subscribe {
+    text-align: center;
+    margin: 120px auto;
+    padding: 50px 250px;
+    background-color: papayawhip;
+    border-radius: 16px;
+}
+.subscribe-tittle {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.subscribe-description {
+    color: #070211;
+    opacity: 60%;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    width: 800px;
+}
+.input-btn {
+    padding: 15px 30px;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.submit-btn {
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #FF0000
+    
+}
+
+/* <!-- Subscribe Section end --> */
