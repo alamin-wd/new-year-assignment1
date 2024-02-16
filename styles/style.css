@@ -100,6 +100,7 @@ font-weight: 900;
 
 .welcome-party-description {
     color: #FFFFFF;
+    opacity: 60%;
     font-size: 18px;
     font-weight: 400;
     margin: 30px 0px;
@@ -168,6 +169,7 @@ font-weight: 600;
 }
 .coming-soon-description {
     color: #070211;
+    opacity: 60%;
     font-size: 20px;
     font-weight: 400;
     margin-top: 20px;
@@ -186,6 +188,95 @@ font-weight: 600;
 }
 .coming-soon-icon {
     padding: 50px 0px;
+    width: 120px;
+}
+/* coming soon Styles End */
+
+/* Holidays section styles start */
+
+.holidays {
+    text-align: center;
+    /* padding: 0px 100px; */
+    height: 700px;
+    background-image: url('../resources/Rectangle\ 2.png');
+    /* background-image: url('../resources/Rectangle\ 1.png'); */
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.holiday-content {
+    width: 600px;
+    align-items: center;
+    margin: 0px auto;
+}
+.holiday-info {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.holiday-tittle {
+color: #070211;
+font-size: 72px;
+font-weight: 900;
+}
+.holiday-tittle-mini {
+    color: #FF0000;
+}
+.holiday-description {
+    color: #070211;
+    opacity: 60%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.holiday-img-container {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 50%;
+    border: 1px solid black;
+}
+.holiday-img-1 {
+
+}
+.holiday-img-2 {
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
-/* coming soon Styles End */
+
+/* Portfolio section styles Start */
+
+.portfolio-container {
+    margin: 0px 10px;
+}
+.portfolio-sub-tittle {
+color: #FF0000;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 10px;
+}
+.portfolio-tittle {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.portfolio-description {
+    color: #070211;
+    opacity: 50%;
+    font-size: 20px;
+    font-weight: 400;
+    width: 60%;
+    margin-bottom: 30px;
+}
+.portfolio-img {
+    margin: 5px;
+
+}
+.portfolio-img:hover {
+    border: 2px solid goldenrod;
+    border-radius: 16px;
+    position: sticky;
+
+
+}
