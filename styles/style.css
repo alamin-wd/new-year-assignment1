@@ -11,10 +11,20 @@ body {
         font-weight: 400;
         font-style: normal;
       }
+    .merriweather-regular {
+        font-family: "Merriweather", serif;
+        font-weight: 500;
+        font-style: normal;
+      }
       
       .merriweather-bold {
         font-family: "Merriweather", serif;
         font-weight: 700;
+        font-style: normal;
+      }
+      .merriweather-bold {
+        font-family: "Merriweather", serif;
+        font-weight: 000;
         font-style: normal;
       }
   
@@ -31,12 +41,14 @@ main {
     background-image: url('../resources/Banner\ Image.png');
     /* background-color: rgb(7, 2, 17); */
     background-repeat: no-repeat;
+
 }
 .banner-content{
     text-align: center;
     justify-content: center;
     align-items: center;
     padding: 180px 350px;
+
 }
 .banner-title {
 color: #FFFFFF;
@@ -89,7 +101,7 @@ align-items: center;
 padding: 60px 130px;
 gap: 50px;
 }
-.welcome-party-contant {
+.welcome-party-content {
 text-align: left;
 }
 .welcome-party-tittle {
@@ -115,6 +127,7 @@ font-weight: 900;
     text-decoration: underline;
     animation: reverse;
 } */
+
 /* Welcome Party Section Styles End */
 
 /* Join Now Section Style Start */
@@ -194,21 +207,21 @@ font-weight: 600;
 
 /* Holidays section styles start */
 
-.holidays {
+/* .holidays {
     text-align: center;
     /* padding: 0px 100px; */
-    height: 700px;
-    background-image: url('../resources/Rectangle\ 2.png');
+    /* height: 700px;
+    background-image: url('../resources/Rectangle\ 2.png'); */
     /* background-image: url('../resources/Rectangle\ 1.png'); */
-    background-repeat: no-repeat;
-    background-position: bottom;
-}
+    /* background-repeat: no-repeat;
+    background-position: bottom; */
+/* }
 .holiday-content {
     width: 600px;
     align-items: center;
     margin: 0px auto;
-}
-.holiday-info {
+} */
+/* .holiday-info {
     color: #070211;
     font-size: 24px;
     font-weight: 500;
@@ -227,21 +240,21 @@ font-weight: 900;
     opacity: 60%;
     font-size: 20px;
     font-weight: 500;
-}
-.holiday-img-container {
+} */
+/* .holiday-img-container {
     display: flex;
     background-repeat: no-repeat;
     background-position: right;
     width: 50%;
-    border: 1px solid black;
-}
+    border: 1px solid black; */
+/* }
 .holiday-img-1 {
 
 }
 .holiday-img-2 {
     background-repeat: no-repeat;
     background-position: bottom;
-}
+} */ */
 
 
 /* Portfolio section styles Start */
@@ -269,6 +282,17 @@ margin-bottom: 10px;
     width: 60%;
     margin-bottom: 30px;
 }
+
+.portfolio-img-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-img-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .portfolio-img {
     margin: 5px;
 
@@ -276,7 +300,7 @@ margin-bottom: 10px;
 .portfolio-img:hover {
     border: 2px solid goldenrod;
     border-radius: 16px;
-    position: sticky;
+    position: relative;
 
 
 }
@@ -322,14 +346,12 @@ margin-bottom: 10px;
 
 /* <!-- Subscribe Section end --> */
 
-/* footer section */
+/* footer styles start */
 
 footer {
     background-color: #070211;
 
 }
-/* subscribe end */
-/* footer styles start */
 
 .footer-top {
     color: #FFFFFF;
@@ -372,3 +394,5 @@ margin: 0px 120px;
     font-weight: 500;
     margin-bottom: 5px;
 }
+
+/* footer section End */
